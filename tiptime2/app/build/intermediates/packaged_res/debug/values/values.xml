@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="black">#FF000000</color>
+    <color name="blue">#0288D1</color>
+    <color name="blue_dark">#005B9F</color>
+    <color name="blue_light">#81D4FA</color>
+    <color name="green">#1B5E20</color>
+    <color name="green_dark">#003300</color>
+    <color name="green_light">#A5D6A7</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="amazing_20">Amazing (20%)</string>
+    <string name="app_name">Tip Time</string>
+    <string name="button">Button</string>
+    <string name="calculate">CALCULATE</string>
+    <string name="email_icon">email icon</string>
+    <string name="good_18">Good (18%)</string>
+    <string name="how_was_the_service">How was the service?</string>
+    <string name="okay_15">Okay (15%)</string>
+    <string name="primary_color">Primary color</string>
+    <string name="round_up_tip">Round up tip?</string>
+    <string name="secondary_color">Secondary color</string>
+    <string name="service_cost">Cost of service</string>
+    <string name="tip_amount">Tip amount: %s</string>
+    <style name="Theme.TipTime" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryVariant">@color/green_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/blue</item>
+        <item name="colorSecondaryVariant">@color/blue_dark</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="textInputStyle">@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox</item>
+        <item name="radioButtonStyle">@style/Widget.tiptime.CompoundButton.RadioButton</item>
+        <item name="switchStyle">@style/Widget.tiptime.CompoundButton.Switch</item>
+    </style>
+    <style name="Widget.tiptime.CompoundButton.RadioButton" parent="Widget.MaterialComponents.CompoundButton.RadioButton">
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:textAppearance">?attr/textAppearanceBody1</item>
+    </style>
+    <style name="Widget.tiptime.CompoundButton.Switch" parent="Widget.MaterialComponents.CompoundButton.Switch">
+        <item name="android:minHeight">48dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAppearance">?attr/textAppearanceBody1</item>
+    </style>
+    <style name="Widget.tiptime.TextView" parent="Widget.MaterialComponents.TextView">
+        <item name="android:minHeight">48dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAppearance">?attr/textAppearanceBody1</item>
+    </style>
+</resources>

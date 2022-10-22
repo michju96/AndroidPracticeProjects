@@ -1,0 +1,6 @@
+com/example/android/unscramble/databinding/MainActivityBinding.java
+ com.example.android.unscramble.databinding.MainActivityBinding
+com/example/android/unscramble/databinding/GameFragmentBinding.java
+ com.example.android.unscramble.databinding.GameFragmentBinding
+com/example/android/unscramble/BuildConfig.java
+ com.example.android.unscramble.BuildConfig

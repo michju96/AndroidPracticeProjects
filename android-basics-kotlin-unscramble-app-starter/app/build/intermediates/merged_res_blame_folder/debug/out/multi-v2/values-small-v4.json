@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.android.unscramble.app-mergeDebugResources-33:/values-small-v4/values-small-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Yashiru\\.gradle\\caches\\transforms-3\\bbc96b549e6bc90eac9d2e1527b49c9f\\transformed\\material-1.6.1\\res\\values-small-v4\\values-small-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,128,198,270",
+                        "endColumns": "72,69,71,69",
+                        "endOffsets": "123,193,265,335"
+                    }
+                }
+            ]
+        }
+    ]
+}

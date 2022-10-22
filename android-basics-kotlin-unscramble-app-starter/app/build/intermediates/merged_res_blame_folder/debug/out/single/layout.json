@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\Yashiru\\.gradle\\daemon\\7.3.3\\com.example.android.unscramble.app-mergeDebugResources-34:\\layout\\game_fragment.xml",
+        "source": "C:\\Users\\Yashiru\\.gradle\\daemon\\7.3.3\\com.example.android.unscramble.app-main-37:\\layout\\game_fragment.xml"
+    },
+    {
+        "merged": "com.example.android.unscramble.app-mergeDebugResources-34:/layout/game_fragment.xml",
+        "source": "com.example.android.unscramble.app-main-37:/layout/game_fragment.xml"
+    }
+]

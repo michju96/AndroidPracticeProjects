@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Yashiru\\.gradle\\daemon\\7.3.3\\com.example.affirmations.app-mergeDebugResources-28:\\layout\\list_item.xml",
+        "source": "C:\\Users\\Yashiru\\.gradle\\daemon\\7.3.3\\com.example.affirmations.app-main-31:\\layout\\list_item.xml"
+    },
+    {
+        "merged": "com.example.affirmations.app-mergeDebugResources-28:/layout/activity_main.xml",
+        "source": "com.example.affirmations.app-main-31:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yashiru\\.gradle\\daemon\\7.3.3\\com.example.affirmations.app-mergeDebugResources-28:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Yashiru\\.gradle\\daemon\\7.3.3\\com.example.affirmations.app-main-31:\\layout\\activity_main.xml"
+    }
+]

@@ -1,0 +1,30 @@
+R_DEF: Internal format may change without notice
+local
+anim spin
+color colorAccent
+color colorBackground
+color colorPrimary
+color colorPrimaryDark
+drawable circle
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable img
+drawable papiezemoji
+id about_item
+id game_score_text_view
+id popeID
+id time_left_text_view
+layout activity_main
+menu menu
+mipmap ic_launcher
+mipmap ic_launcher_round
+string about_message
+string about_title
+string app_name
+string game_over_message
+string tap_me
+string time_left
+string your_score
+style Theme.Timefighter
+xml backup_rules
+xml data_extraction_rules

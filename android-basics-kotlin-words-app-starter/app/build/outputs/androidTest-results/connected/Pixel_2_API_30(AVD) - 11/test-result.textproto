@@ -1,0 +1,73 @@
+# 2022-10-20T21:37:54.133Z:
+test_suite_meta_data {
+  scheduled_test_case_count: 1
+}
+test_status: FAILED
+test_result {
+  test_case {
+    test_class: "NavigationTests"
+    test_package: "com.example.wordsapp"
+    test_method: "navigate_to_words_nav_component"
+    start_time {
+      seconds: 1666301861
+      nanos: 278000000
+    }
+    end_time {
+      seconds: 1666301872
+      nanos: 625000000
+    }
+  }
+  test_status: FAILED
+  error {
+    error_message: "androidx.test.espresso.base.RootViewPicker$RootViewWithoutFocusException: Waited for the root of the view hierarchy to have window focus and not request layout for 10 seconds. If you specified a non default root matcher, it may be picking a root that never takes focus. Root:\nRoot{application-window-token=android.view.ViewRootImpl$W@cd3406e, window-token=android.view.ViewRootImpl$W@cd3406e, has-window-focus=false, layout-params-type=1, layout-params-string={(0,0)(fillxfill) sim={forwardNavigation} ty=BASE_APPLICATION wanim=0x10302fe\nfl=LAYOUT_IN_SCREEN LAYOUT_INSET_DECOR SPLIT_TOUCH HARDWARE_ACCELERATED DRAWS_SYSTEM_BAR_BACKGROUNDS\npfl=FORCE_DRAW_STATUS_BAR_BACKGROUND FIT_INSETS_CONTROLLED\nfitSides=}, decor-view-string=DecorView{id=-1, visibility=VISIBLE, width=1080, height=1920, has-focus=false, has-focusable=true, has-window-focus=false, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params={(0,0)(fillxfill) sim={forwardNavigation} ty=BASE_APPLICATION wanim=0x10302fe\nfl=LAYOUT_IN_SCREEN LAYOUT_INSET_DECOR SPLIT_TOUCH HARDWARE_ACCELERATED DRAWS_SYSTEM_BAR_BACKGROUNDS\npfl=FORCE_DRAW_STATUS_BAR_BACKGROUND FIT_INSETS_CONTROLLED\nfitSides=}, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=1}}\nat dalvik.system.VMStack.getThreadStackTrace(Native Method)\nat java.lang.Thread.getStackTrace(Thread.java:1736)\nat androidx.test.espresso.base.DefaultFailureHandler.getUserFriendlyError(DefaultFailureHandler.java:12)\nat androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:7)\nat androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)\nat androidx.test.espresso.ViewInteraction.desugaredPerform(ViewInteraction.java:11)\nat androidx.test.espresso.ViewInteraction.perform(ViewInteraction.java:4)\nat com.example.wordsapp.NavigationTests.navigate_to_words_nav_component(NavigationTests.kt:34)"
+    error_type: "androidx.test.espresso.base.RootViewPicker$RootViewWithoutFocusException"
+    stack_trace: "androidx.test.espresso.base.RootViewPicker$RootViewWithoutFocusException: Waited for the root of the view hierarchy to have window focus and not request layout for 10 seconds. If you specified a non default root matcher, it may be picking a root that never takes focus. Root:\nRoot{application-window-token=android.view.ViewRootImpl$W@cd3406e, window-token=android.view.ViewRootImpl$W@cd3406e, has-window-focus=false, layout-params-type=1, layout-params-string={(0,0)(fillxfill) sim={forwardNavigation} ty=BASE_APPLICATION wanim=0x10302fe\nfl=LAYOUT_IN_SCREEN LAYOUT_INSET_DECOR SPLIT_TOUCH HARDWARE_ACCELERATED DRAWS_SYSTEM_BAR_BACKGROUNDS\npfl=FORCE_DRAW_STATUS_BAR_BACKGROUND FIT_INSETS_CONTROLLED\nfitSides=}, decor-view-string=DecorView{id=-1, visibility=VISIBLE, width=1080, height=1920, has-focus=false, has-focusable=true, has-window-focus=false, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params={(0,0)(fillxfill) sim={forwardNavigation} ty=BASE_APPLICATION wanim=0x10302fe\nfl=LAYOUT_IN_SCREEN LAYOUT_INSET_DECOR SPLIT_TOUCH HARDWARE_ACCELERATED DRAWS_SYSTEM_BAR_BACKGROUNDS\npfl=FORCE_DRAW_STATUS_BAR_BACKGROUND FIT_INSETS_CONTROLLED\nfitSides=}, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=0.0, child-count=1}}\nat dalvik.system.VMStack.getThreadStackTrace(Native Method)\nat java.lang.Thread.getStackTrace(Thread.java:1736)\nat androidx.test.espresso.base.DefaultFailureHandler.getUserFriendlyError(DefaultFailureHandler.java:12)\nat androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:7)\nat androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)\nat androidx.test.espresso.ViewInteraction.desugaredPerform(ViewInteraction.java:11)\nat androidx.test.espresso.ViewInteraction.perform(ViewInteraction.java:4)\nat com.example.wordsapp.NavigationTests.navigate_to_words_nav_component(NavigationTests.kt:34)"
+  }
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Yashiru\\Desktop\\android-basics-kotlin-words-app-starter\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_2_API_30(AVD) - 11\\logcat-com.example.wordsapp.NavigationTests-navigate_to_words_nav_component.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Yashiru\\Desktop\\android-basics-kotlin-words-app-starter\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_2_API_30(AVD) - 11\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Yashiru\\Desktop\\android-basics-kotlin-words-app-starter\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_2_API_30(AVD) - 11\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Yashiru\\Desktop\\android-basics-kotlin-words-app-starter\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_2_API_30(AVD) - 11\\cpuinfo"
+    }
+  }
+}
+output_artifact {
+  label {
+    label: "test-results.log"
+    namespace: "com.google.testing.platform.runtime.android.driver.AndroidInstrumentationDriver"
+  }
+  source_path {
+    path: "C:\\Users\\Yashiru\\Desktop\\android-basics-kotlin-words-app-starter\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_2_API_30(AVD) - 11\\testlog\\test-results.log"
+  }
+  type: TEST_DATA
+  mime_type: "text/plain"
+}
