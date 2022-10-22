@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name" translatable="false">PopeCreator</string>
+    <string name="name_of_new_pope" translatable="false">Name of new Pope:</string>
+    <string name="create_new_pope" translatable="false">Create your new Pope</string>
+    <string name="paste_url" translatable="false">Paste url of pope image:</string>
+    <string name="create_new_image" translatable="false">Created Image</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
